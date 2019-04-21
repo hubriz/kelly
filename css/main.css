@@ -1,0 +1,120 @@
+@import url('bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900,400italic');
+
+
+
+@font-face {
+	font-family: 'DubielPlain';
+	src: url('../fonts/DubielPlain.eot');
+	src: url('../fonts/DubielPlain.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DubielPlain.woff2') format('woff2'),
+		url('../fonts/DubielPlain.woff') format('woff'),
+		url('../fonts/DubielPlain.ttf') format('truetype'),
+		url('../fonts/DubielPlain.svg#DubielPlain') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'DubielItalic';
+	src: url('../fonts/DubielItalic.eot');
+	src: url('../fonts/DubielItalic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DubielItalic.woff2') format('woff2'),
+		url('../fonts/DubielItalic.woff') format('woff'),
+		url('../fonts/DubielItalic.ttf') format('truetype'),
+		url('../fonts/DubielItalic.svg#DubielItalic') format('svg');
+	font-weight: 100;
+	font-style: italic;
+}
+
+
+body {font: 14px/24px 'Lato', Tahoma, Arial, sans-serif;color:#222221;}
+
+a {text-decoration:none;outline:none;}
+
+a:focus {outline:none;}
+
+img {border:none;outline:none;}
+
+.single-spacer {margin-top:1em;margin-bottom:1em;overflow:hidden;clear:both;}
+
+.double-spacer {margin-top:2em;margin-bottom:2em;overflow:hidden;clear:both;}
+
+.centered {display:block;margin:0 auto;text-align:center;}
+
+.set-min-height-400 {min-height:400px;clear:both;}
+
+.btn-set-max-width { max-width: 150px; width: 100%;  }
+
+.no-resize {resize:none;}
+
+/* ==========================================================================
+   TOP SECTION
+========================================================================== */
+
+@media all{
+	.top-section {background:#1c1c1b;width:100%;min-height:140px;padding-top:36px;padding-bottom: 36px;}
+	.top-section a {outline:none;color:white;}
+	.top-section .navbar-toggle .icon-bar {background-color:white;}
+	.top-section .navbar-brand {text-transform: uppercase;font-family: 'Lato', sans-serif;font-weight: 300;font-size:0.86em;color:white;margin-top:-26px;}
+	.top-section .navbar-brand img {display:inline-block;max-width:78px;width:100%;height:auto;margin-right:2em;}
+
+	#main-nav ul.navbar-nav a {font-family: DubielPlain, Georgia, serif;text-transform: uppercase;font-size:1.21em;padding-bottom:30px;}
+	#main-nav ul.navbar-nav a:hover {background:none;color:rgba(255,255,255,.8);border-bottom:2px solid white;}
+}
+
+@media (max-width:767px){
+	#main-nav {margin-top:24px;}
+	#main-nav ul.navbar-nav a:hover {border-bottom:none;}
+}
+
+
+/* ==========================================================================
+   MAIN SECTION
+========================================================================== */
+
+@media all{
+	.main-section{width:100%;height:auto;}
+	.main-section .flexslider {padding:0;margin:0;border:none;}
+	.main-section .page-header {border-bottom:none;}
+	.main-section .page-header h5{text-transform:uppercase;text-align:center;font-family:'Lato', Tahoma, sans-serif;color:#222221;font-size:1em;}
+	.main-section h1 {font-family:'DubielPlain', Georgia, serif; color:#222221; font-size: 3.57em;text-transform:uppercase;}
+	
+	
+	.is-checked{background-color: #eee;border-radius:4px;}
+	
+	.portfolio-list .grid {min-height:1000px;}
+	.portfolio-list .grid .element-item {margin:1em;height:auto;min-width:250px;min-height:200px;}
+	.portfolio-list .grid .element-item img {width:100%;height:auto;display:block;}
+	
+	.mini-border {height:1px;width:114px;display:block;background:#000;}
+		
+	}
+	
+	@media (max-width:600px){
+		.portfolio-list .grid .element-item {min-width:100%;min-height:auto;}
+	}
+
+/* ==========================================================================
+   BOTTOM SECTION
+========================================================================== */
+@media all{
+	.footer-section{background:#1c1c1b;width:100%;padding-top:26px;padding-bottom:26px;min-height:124px;}
+	.footer-section nav,
+	.footer-section h6 {text-align:center;color:white;font-size:1em;font-family: 'DubielPlain',Georgia,sans-serif;}
+	.footer-section nav a {padding-left:0.8em;padding-right:0.8em;}
+	.footer-section a {font-family: DubielPlain, Georgia, serif;font-size:1.29em;color:white;outline:none;text-decoration: none;line-height:36px;height:36px; }
+	.footer-section a:hover {color:rgba(255,255,255,.8);}
+}
+
+
+
+
+
+
+
+
+
+
+
